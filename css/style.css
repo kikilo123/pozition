@@ -1,0 +1,56 @@
+body{
+	height: 2000px;
+}
+.head {
+	background-color: cornflowerblue;
+	padding: 20px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+.a {
+	 font-size: 20px;
+	 color: red;
+	 margin-right: 25px;
+}
+ .nav {
+	display: inline-block;
+} 
+
+.li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.sec1 {
+padding-top: 60px;
+}
+.h2 {
+	 font-size: 40px;
+}
+.rel {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+
+.abs {
+	width: 200px;
+	height: 200px;
+	background-color:blue;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sec3 {
+	position: relative;
+	display: inline-block;
+}
+
+.h5 {
+	position: absolute;
+	color: red;
+	font-size: 25px;
+	top: 0;
+	right: 0;
+}
